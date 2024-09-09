@@ -165,7 +165,7 @@ const Work = () => {
                       <Image
                         src={project.image}
                         fill
-                        className="object-contain sm:object-cover"
+                        className="object-contain"
                         alt={project.title}
                       />
                     </div>
