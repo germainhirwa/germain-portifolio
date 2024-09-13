@@ -5,7 +5,7 @@ import {SiCplusplus, SiSwift, SiRuby, SiDjango, SiArduino, SiTailwindcss, SiNext
 // about data
 const about = {
     title: 'About me',
-    description: "I'm a dedicated Computer Science and Economics student at Swarthmore College, passionate about leveraging technology to solve real-world problems. With a diverse set of experiences in software development and IT, I'm constantly seeking new challenges and opportunities to grow.",
+    description: "I'm a dedicated Computer Science and Economics student at Swarthmore College, passionate about leveraging technology to solve real-world problems. With a diverse set of experiences in software engineering and IT, I'm constantly seeking new challenges and opportunities to grow.",
     info: [
         {
             fieldName: "Name",
@@ -37,7 +37,7 @@ const about = {
         },
         {
             fieldName: "Language",
-            fieldValue: "English"
+            fieldValue: "English, French & Swahili"
         },
     ]
 };
@@ -46,7 +46,7 @@ const about = {
 const experience = {
     icon: "/assets/resume/badge.svg",
     title: "My experience",
-    description: "A track record of impactful roles in software development and IT, demonstrating skills in various programming languages and technologies.",
+    description: "A track record of impactful roles in software engineering and IT, demonstrating skills in various programming languages and technologies.",
     items: [
         {
             company: "Swarthmore's Information Technology Services (ITS)",
@@ -83,9 +83,9 @@ const education = {
             duration: "2023 - 2027 (Expected)",
         },
         {
-            institution: "Udemy",
-            degree: "100 Days of Code: The Complete Python Pro Bootcamp",
-            duration: "2023",
+            institution: "MIT",
+            degree: "Data Science and Machine Learning",
+            duration: "2024 (Summer)",
         },
         {
             institution: "CodePath",
@@ -98,9 +98,19 @@ const education = {
             duration: "2023",
         },
         {
+            institution: "Udemy",
+            degree: "100 Days of Code: The Complete Python Pro Bootcamp",
+            duration: "2021",
+        },
+        {
             institution: "AT&T",
             degree: "Technology Academy",
             duration: "2024",
+        },
+        {
+            institution: "Harvard",
+            degree: "Harvard CS50",
+            duration: "2021",
         },
         {
             institution: "Google Student Developers Club",
