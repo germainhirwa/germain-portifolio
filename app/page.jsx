@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <section className="h-full">
       <div className="container mx-auto h-full">
-        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+        <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-6 xl:pb-14">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Software Developer & CS Student</span>
@@ -26,7 +26,8 @@ const Home = () => {
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
-                href="https://drive.google.com/uc?export=download&id=1BU_K6umJEcOjhwdIvMYM_AWftAzOugEo"
+                // href="https://drive.google.com/uc?export=download&id=1BU_K6umJEcOjhwdIvMYM_AWftAzOugEo" // This is the one with GPA and advanced
+                href="https://drive.google.com/file/d/1e7D6fkUjvYDr2eD8XCJiu-NU6lg1_kKU"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -44,12 +45,14 @@ const Home = () => {
             </div>
           </div>
           {/* photo */}
-          <div className="order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="order-1 xl:order-none mb-6 xl:mb-0">
             <Photo />
           </div>
         </div>
       </div>
-      <Stats />
+      <div>
+        <Stats />
+      </div>
     </section>
   );
 };
