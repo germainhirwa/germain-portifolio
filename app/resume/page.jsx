@@ -135,7 +135,8 @@ const Resume = () => {
 
     const openResume = () => {
         // window.open('https://drive.google.com/file/d/1BU_K6umJEcOjhwdIvMYM_AWftAzOugEo/view?usp=sharing', '_blank');  // This is the one with GPA and more advanced
-        window.open('https://drive.google.com/file/d/1e7D6fkUjvYDr2eD8XCJiu-NU6lg1_kKU/view?usp=sharing', '_blank');
+        // window.open('https://drive.google.com/file/d/1e7D6fkUjvYDr2eD8XCJiu-NU6lg1_kKU/view?usp=sharing', '_blank'); // My previous resume
+        window.open('https://drive.google.com/file/d/1Sq1H5XHHyzeL0bdCj4-sBvBz904xySdq/view?usp=drive_link', '_blank');
         
     };
 

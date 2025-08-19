@@ -27,7 +27,8 @@ const Home = () => {
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <a
                 // href="https://drive.google.com/uc?export=download&id=1BU_K6umJEcOjhwdIvMYM_AWftAzOugEo" // This is the one with GPA and advanced
-                href="https://drive.google.com/file/d/1e7D6fkUjvYDr2eD8XCJiu-NU6lg1_kKU"
+                // href="https://drive.google.com/file/d/1e7D6fkUjvYDr2eD8XCJiu-NU6lg1_kKU" // My previous resume
+                href="https://drive.google.com/file/d/1Sq1H5XHHyzeL0bdCj4-sBvBz904xySdq/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
