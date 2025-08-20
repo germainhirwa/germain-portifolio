@@ -15,7 +15,7 @@ const about = {
     info: [
         { fieldName: "Name", fieldValue: "Germain Hirwa" },
         { fieldName: "Phone", fieldValue: "(+1) 484 475 7225" },
-        { fieldName: "Experience", fieldValue: "3+ Years" },
+        { fieldName: "Experience", fieldValue: "4+ Years" },
         { fieldName: "GitHub", fieldValue: "germainhirwa" },
         { fieldName: "Nationality", fieldValue: "Rwandan" },
         { fieldName: "Email", fieldValue: "higermain1@gmail.com" },
