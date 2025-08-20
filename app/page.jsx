@@ -13,15 +13,15 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-6 xl:pb-14">
           {/* text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Software Developer & CS Student</span>
+            <span className="text-xl">Software Engineer & CS Student</span>
             <h1 className="h1 mb-6">
               Hello, I'm <br /> <span className="text-accent">Germain Hirwa</span>
             </h1>
             <p className="max-w-[600px] mb-9 text-white/80">
-              Passionate Computer Science and Economics student at Swarthmore College, 
+              Passionate Computer Science and Economics Junior student at Swarthmore College, 
               with a track record of innovative software development. I blend academic 
               rigor with practical experience to create impactful digital solutions, 
-              from mobile apps to enterprise software.
+              from enterprise software to mobile apps.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

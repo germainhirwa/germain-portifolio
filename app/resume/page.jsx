@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import { FaHtml5, FaCss3, FaJs, FaReact, FaGithub, FaPython, FaNode, FaEye } from "react-icons/fa";
-import { SiCplusplus, SiSwift, SiRuby, SiDjango, SiArduino, SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiCplusplus, SiSwift, SiRuby, SiDjango, SiArduino, SiApachekafka, SiApachesolr, SiTailwindcss, SiNextdotjs } from "react-icons/si";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -18,7 +18,7 @@ const about = {
         { fieldName: "Experience", fieldValue: "3+ Years" },
         { fieldName: "GitHub", fieldValue: "germainhirwa" },
         { fieldName: "Nationality", fieldValue: "Rwandan" },
-        { fieldName: "Email", fieldValue: "ghirwa1@swarthmore.edu" },
+        { fieldName: "Email", fieldValue: "higermain1@gmail.com" },
         { fieldName: "Education", fieldValue: "Swarthmore College" },
         { fieldName: "Language", fieldValue: "English, French & Swahili" },
     ]
@@ -30,6 +30,11 @@ const experience = {
     title: "My experience",
     description: "A track record of impactful roles in software engineering and IT, demonstrating skills in various programming languages and technologies.",
     items: [
+        {
+            company: "Software Engineer Intern",
+            position: "Bloomberg L.P",
+            duration: "June 2025 - August 2025",
+        },
         {
             company: "Swarthmore's Information Technology Services (ITS)",
             position: "IT Student Associate (ITSA)",
@@ -111,10 +116,12 @@ const skills = {
         { icon: <SiCplusplus />, name: "C++" },
         { icon: <FaJs />, name: "JavaScript" },
         { icon: <SiSwift />, name: "Swift" },
+        { icon: <SiApachekafka />, name: "Apache Kafka" },
+        { icon: <SiApachesolr />, name: "Apache Solr" },
+        { icon: <FaGithub />, name: "Git/GitHub" },
         { icon: <SiRuby />, name: "Ruby" },
         { icon: <FaHtml5 />, name: "HTML5" },
         { icon: <FaCss3 />, name: "CSS3" },
-        { icon: <FaGithub />, name: "Git/GitHub" },
         { icon: <SiDjango />, name: "Django" },
         { icon: <FaReact />, name: "React" },
         { icon: <FaNode />, name: "Node.js" },
