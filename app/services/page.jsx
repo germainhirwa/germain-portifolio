@@ -13,7 +13,7 @@ const services = [
     {
         num: "02",
         title: "Software Engineering",
-        description: "Experience in developing software solutions like inventory management systems and customer retention apps, enhancing operational efficiency by over 30%.",
+        description: "Experience in developing secure, scalable, and fault tolerant software solutions with experience working in big tech companies including Bloomberg L.P",
         href: ""  // Link to a specific project or more details
     },
     {
