@@ -31,8 +31,8 @@ const experience = {
     description: "A track record of impactful roles in software engineering and IT, demonstrating skills in various programming languages and technologies.",
     items: [
         {
-            company: "Software Engineer Intern",
-            position: "Bloomberg L.P",
+            company: "Bloomberg L.P",
+            position: "Software Engineer Intern",
             duration: "June 2025 - August 2025",
         },
         {
